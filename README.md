@@ -1,10 +1,10 @@
 # Amazon Vine Analysis
 
-Created an ETL pipeline using pyspark to extract a data source of amazon reviews, transform the data into multiple data frames, then load the data into a postgres SQL database running in AWS.
+Created an ETL pipeline using pyspark to extract a data source of amazon reviews and transform the data into multiple DataFrames. Then load each one into tables in a postgres SQL database running in AWS.
 
 ## Analysis Overview
 
-My client SellBy is paying a small fee to Amazon who in turns provides products to there Amazon Vine members required to publish reviews. SellBy would like to make sure they are getting something for their money and have tasked me to see if there is a bias towards positive reviews from Vine members.
+My client SellBy is paying a small fee to Amazon, who in turns provides products to their Amazon Vine members required to publish reviews. SellBy would like to make sure they are getting something for their money and have tasked me to see if there is a bias towards positive reviews from Vine members.
 
 ## Results
 - There were 231 reviews from Vine members vs 16,464 from non-Vine members
